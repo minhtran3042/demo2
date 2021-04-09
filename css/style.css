@@ -1,0 +1,244 @@
+body a {
+    text-decoration: none;
+}
+/* .col{
+    border: 1px solid black;
+} */
+
+/* header */
+.header .contact .col a img {
+    padding: 0 10px;
+}
+.header .contact a {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #506a85;
+}
+.header .contact {
+    padding-bottom: 50px;
+}
+.header .contact .social{
+    float: right;   
+}
+
+.header .nav-bar .logo img {
+    width: 161px;
+    height: 40px;
+}
+.header .nav-bar .menu a{
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #506a85;
+    font-size: 15px;
+    padding: 0 40px;
+}
+.slide-show {
+    background-image: url(/image/slide-img-1.jpg);
+    background-repeat: no-repeat;
+    height: 882px;
+    padding-top: 100px;
+}
+.container-fluid .slide {
+    max-height: 882px;
+    padding-top: 297px;
+}
+.container-fluid .slide h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 78px;
+    font-weight: 700;
+    line-height: 88px;
+    color: #ffffff;
+    padding-bottom: 27px;
+}
+.container-fluid .slide h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #a3b1bf;
+    padding-bottom: 58px;
+}
+.container-fluid .slide button  {
+    width: 296px;
+    height: 66px;
+    border-radius: 5px;
+    background-color: #00bc9c;
+    border: none;
+    display: block;
+    margin-bottom: 302px;
+    
+}
+.container-fluid .slide button a {
+    display: block;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 66px ;
+    
+}
+
+/* main */
+.main h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #506a85;
+    padding-top: 127px;
+}
+.main h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #73879c;
+    padding-top: 24px;
+}
+.main h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #506a85;
+    padding-top: 67px;
+}
+.main img {
+    padding-top: 67px;
+}
+@media(max-width: 882px){
+    .main img {
+        width: 50px;
+        height: 100px;
+    }
+    /* .footer form input {
+        width: 100px;
+    }
+    .footer form #submit {
+        width: 30px;
+        right: -7px;
+    } */
+}
+@media(max-width: 770px){
+    .main img {
+        width: 40px;
+        height: 100px;
+    }
+    .main p{
+        line-height: 20px;
+        font-size: 12px;
+    }
+}
+.main p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #73879c;
+    padding-bottom: 249px;
+}
+.latest-work h1 {
+    padding-top: 0;
+}
+.latest-work p {
+    padding-bottom: 0;
+}
+.latest-work img{
+    width: 570px;
+    height: 391px;
+    padding-top: 68px;
+}
+.slide-bottom{
+    padding-top: 108px;
+    padding-bottom: 46px;
+}
+.nav button{
+    background-color: #506a85;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    border: none;
+    
+}
+.nav button:nth-child(2){
+    background-color: #00bc9c;
+}
+
+.get-in-touch button{
+    width: 151px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #00bc9c;
+    border: none;
+    display: block;
+    margin-bottom: 132px;
+}
+.get-in-touch button a{
+    display: block;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px ;
+}
+.get-in-touch h2{
+    padding-bottom: 37px;
+}
+
+/* footer */
+.footer{
+    background-color: #2f4052;
+}
+.footer h1 img{
+    color: #ffffff;
+    
+}
+.footer h3 {
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px ;
+    padding-top: 74px;
+    padding-bottom: 25px;
+}
+.footer p{
+    color: #a3b1bf;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px ;
+}
+.footer a{
+    color: #a3b1bf;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px ;
+}
+.footer form{
+    position: relative;
+}
+.footer form input{
+    width: 270px;
+    height: 41px;
+    background-color: #4e5c6c;
+    border: none;
+    border-radius: 5px;
+    
+}
+.footer input:focus {
+    outline: none;
+}
+.footer #submit{ 
+    width: 86px;
+    height: 29px;
+    position: absolute;
+    top: 6px;
+    left: 180px;
+    background-color: #00bc9c;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
